@@ -32,7 +32,6 @@ html, body{
 
 .search__field{
   width: 100%;
-  position: relative;
 }
 
 .search__input{
@@ -51,21 +50,4 @@ html, body{
 
 .search__input:hover, .search__input:focus, .search__input:active{
   box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
-}
-
-.search__autocomplete{
-  background: #ffffff;
-  position: absolute;
-  z-index: 1;
-  width: 100%;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
-}
-
-.search__autocomplete-item{
-  padding: 7px 16px;
-  cursor: pointer;
-}
-
-.search__autocomplete-item:hover, .search__autocomplete-item.is-active{
-  background: rgba(204, 204, 204, 0.2);
 }
